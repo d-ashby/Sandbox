@@ -4,14 +4,21 @@
   display: flex;
   flex-wrap: wrap;
   background-color: grey;
+
 }
 
 .grid div {
   height: 40px;
   width: 40px;
-
+  text-align: center;
 }
-
+.safe {
+  background-color: skyblue;
+}
+.checked {
+  background-color: rgb(230, 28, 28);
+  text-align: center;
+}
 .bomb {
-  background-color: orange;
+ 
 }
